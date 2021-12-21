@@ -1,6 +1,6 @@
 # ADS-Portfolio
 
-# Portfolio Zahir Bholai 19126778 Applied Data Science
+# Portfolio Breno van Tricht 16132041 Applied Data Science
 Lecturers: Tony Andrioli, Raymond Hoogendoorn, Ruud Vermeij and Jeroen Vuurens
 
 ## Introduction
@@ -12,67 +12,12 @@ This is the personal portfolio of a public administration student following the 
 ## Reflection and evaluation
 
 ### Reflection on own contribution to the project.
-Situation:
-
-The Smart Teddy Project was the first data science project I participated in. I have positive memories of the project group I participated in. From day 1 we started of the project by exchanging socials and discussing ways to keep track of the project. Since my major is public administration (Bestuurskunde/Overheidsmanagement) I was a bit worried about my contribution to the project. I had moments at the beginning of the minor where I questioned myself if I am capable of completing this minor. But by staying motivated, asking questions and the will to learn I have managed to make contributions to the project. 
-
-Task:
-
-One of the challenging contribution I had was to classify and evaluate positive and negative emotions for the machine learning models and CNN model we had made. I had to preprocess the emotions through speech audio from the datasets in to a positive and negative classification. Then I had to run it with the machine learning models we had made. After the runs I had to evaluate the results of the positive and negative classification. The contributions I had made were in the beginning more towards the research part of the project. But when I got familiar with programming I have made some contributions towards the technical part of the project.
-
-Action:
-
-By asking questions at the daily stand-ups and sharing my screen with the project members to ask for help. Websites like StackOverflow and TowardsDataScience were also helpful to gain information about the contributions I worked on. 
-
-Result:
-
-I am happy with the results we accomplished. The group as whole were helpful towards each other. If someone was having a hard time with the contribution he was working on, a project member jumped in to help. At the end of the day the challenging contribution I faced had come to a success.
-
-Reflection:
-
-The lesson I have learned was to always be open about the progress you made. Four project members are studying software engineer and got much more experience than I do in the field of computer sciences. Since I am aware that my programming skills are not so well-polished as the four project members I had to ask for help at some moments when things aren’t going that well. But when I shared my screen and was looking with a project member together I got some helpful feedback to get the job done. Openness about the work you are doing was the key factor to made your contribution to the project a success.
 
 
 ### Reflection on own learning objectives.
-Situation:
-
-There was a reason why me, a public administration student had chosen this minor. I wanted to dive in the world of data science so I can implement the tools and methods that i am going to learn in my future career at the public sector. I have set up some learning objectives in the minor. These learning objectives I wanted to be able to do at the end of the minor.
-
-Task:
-
-The learning objectives what I wanted to learn are the following:
-1.	I want to learn the basics of python 
-2.	I want to learn how to implement a working machine learning model on a dataset
-3.	I want to increase my research capabilities by learning more about visualization
-4.	I want to learn how to implement a working neural network on a dataset
-
-Action:
-
-To reach the learning objectives I have set myself I did the following:
-
-As a public administration student I didn’t know any programming languages. I was determined at the start of the minor to learn myself the basics of python since it was the programming language the minor was using. 
-I learned about machine learning models at DataCamp and the lectures from Jeroen Vuurens.
-I wanted to increase my research capabilities by learning more about data visualization. The workshops of Tony Andrioli were helpful in that matter. The do’s and don’t of data visualization were helpful. 
-To implement a working neural network I have followed the lectures of Jeroen Vuurens. 
-
-Result:
-
-I have given whatever it takes to fulfill my learning objectives and with success. The learning objectives I have set have all been addressed in the minor. For learning the basics of python I have achieved 100% completion of the courses from DataCamp. For implementing machine learning models on datasets I have trained various machine learning models such as a SVM,  a linear regression model and a decisiontreeclassifier on various dataset from sklearn and Kaggle. I have learned about the python package Matplotlib.pyplot to create visualizations from data. Matplotlib.pyplot is something I am taking with me for the rest of my study career and future career. I have implemented a feed forward neural network and a convolutional network on the MNIST dataset.
-
-Reflection:
-
-I am satisfied with the results I have achieved in such short notice. I came to this minor with zero knowledge about python, machine learning models, neural networks and data visualization techniques. During this minor I have given whatever it takes to achieve my learning objectives and with success.
 
 ### Evaluation on the group project as a whole.
-Situation:
 
-Task:
-
-Action:
-
-Result:
-
-Reflection:
 
   
 ## Research Project
