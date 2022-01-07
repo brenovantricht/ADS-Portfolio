@@ -1,9 +1,17 @@
-# ADS Portfolio
----
-# Breno van Tricht 16132041 
+# The Smart Teddy Portfolio - Data Science Minor
+By: Breno van Tricht
+Student number: 16132041
+
+Project Group Team Emo: 
+- Jaap van Gestel -
+- Koen de Bruijn -
+- Julian Groen -
+- Zahir Bholai -
+- Yuri Lamijo -
+
 Lecturers: Tony Andrioli, Raymond Hoogendoorn, Ruud Vermeij and Jeroen Vuurens
 
-## Introduction
+# Introduction
 This is the personal portfolio of a public administration student following the minor Applied Data Science. A challenging yet insightful minor for everyone who is interested in the world of data science.   
 
 ## Datacamp Courses
