@@ -18,10 +18,10 @@ Smart teddy is therapueutic companion  located in the homes of senior citizen. I
 
 # Datacamp Courses
 
-<summary>Progress in DataCamp</summary>
+<details>Progress in DataCamp
 
 ![Datacamp](Images/Datacamp-Courses.PNG)
-
+</details>
 
   
 # Reflection and evaluation
