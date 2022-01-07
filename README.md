@@ -16,7 +16,11 @@ Docenten: Jeroen Vuurens, Tony Andrioli, Ruud Vermeij en Raymond Hoogendoorn
 Smart teddy is therapueutic companion  located in the homes of senior citizen. It is used to monitor the quality of life of the elderly within the early stages of dementia. It does this with various sensors which combined with the software in the base station produce reports about the quality of life. Our task is to recognize emotions from audio.
   
 
-## Datacamp Courses
+# Datacamp Courses
+
+<details><summary>Progress in DataCamp</summary>
+
+![](Images/)
 
 ## Reflection and evaluation
 
