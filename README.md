@@ -1,6 +1,5 @@
-# ADS-Portfolio
-
-# Applied Data Science (ADS) Portfolio
+# ADS Portfolio
+---
 # Breno van Tricht 16132041 
 Lecturers: Tony Andrioli, Raymond Hoogendoorn, Ruud Vermeij and Jeroen Vuurens
 
