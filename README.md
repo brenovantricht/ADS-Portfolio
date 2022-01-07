@@ -13,7 +13,8 @@ Project Group Team Emo:
 Docenten: Jeroen Vuurens, Tony Andrioli, Ruud Vermeij en Raymond Hoogendoorn
 
 # Introduction
-This is the personal portfolio of a public administration student following the minor Applied Data Science. A challenging yet insightful minor for everyone who is interested in the world of data science.   
+Smart teddy is therapueutic companion  located in the homes of senior citizen. It is used to monitor the quality of life of the elderly within the early stages of dementia. It does this with various sensors which combined with the software in the base station produce reports about the quality of life. Our task is to recognize emotions from audio.
+  
 
 ## Datacamp Courses
 
