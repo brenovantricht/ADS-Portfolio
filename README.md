@@ -123,8 +123,9 @@ Ik vond het in het begin lastig om een rol te vinden die bij mij pastte tijdens 
 
 
 # Research Project
-<details><summary Task Definition</summary>
+<details><summary> Task Definition</summary>
 
+**Context**
 
 Smart teddy is een therapeutisch compagnon die geplaatst zal gaan worden bij senioren thuis. Deze senioren zitten in de beginnende fase van dementie. Dementie is een verzamelnaam voor ruim vijftig ziektes, de meest voorkomende vorm is Alzheimer. Dementie is een ingewikkelde en ingrijpende ziekte die veel vragen oproept. 
 De Smart Teddy zal gebruikt gaan worden om de quality of life (QoL) te monitoren bij senioren in de beginnende fase van dementie. Dit zal gedaan worden door een aantal sensoren en een hiervan is een microfoon die audio zal opnemen. Gecombineerd met de software in de base station zal dit rapporten produceren over de qualite of life. 
@@ -133,20 +134,64 @@ In de minor zijn er meerdere groepen bezig met dit vraagstuk. Zo bestaat er ook 
 
 Ik maak onderdeel uit van Team Emo, wij hebben ons bezig gehouden met het detecteren van emoties uit audio. Het detecteren van emoties kan voor veel voordelen zorgen. Dementerende ouderen tonen vaak minder emoties wanneer zij zich in een later stadium van dementie bevinden. In het begin van de ziekte tonen de senioren vaak boze emoties. Dit komt doordat ze meestal niet meteen kunnen accepteren of beseffen wat er met ze aan de hand is.
 
- Door bij te houden hoe vaak bepaalde emoties getoond worden, kan de patient beter gemonitord worden. Deze informatie geeft indicaties over de quality of life. Verzorgers en health experts kunnen zo beter overzicht houden en bepalen hoe het met de senior gaat.
+ Door bij te houden hoe vaak bepaalde emoties getoond worden, kan de patient beter gemonitord worden. Deze informatie geeft indicaties over de quality of life. Verzorgers en andere health experts kunnen zo beter overzicht houden over hoe het met de senioren gaat.
 
-Ik heb veel gewerkt aan het creeren van een duidelijke hoofdvraag, na de hoofdvraag te bespreken met alle docenten en mijn groepje hebben we gekozen voor:
+**Hoofdvraag**
+
+Ik heb veel gewerkt aan het creeren van onze hoofdvraag, na de hoofdvraag te bespreken met alle docenten hebben wij gekozen voor:
 
 > Which machine learning models achieve the highest precision classifying emotions, using datasets containing audio with labelled vocal emotional expressions recorded in a professional recording studio, to recognize emotions within household environments?
 
 
+Het eerste deel van de hoofdvraag is tot stand gekomen doordat wij gaan onderzoeken welke machine learning model de beste resultaat levert. Het beste resultaat wordt bepaald door de metriek "precision". Hier is veel discussie rondon ontstaan en zal straks meer aan bod komen in het kopje Research Proposal hieronder. 
+
+Het tweede deel van de hoofdvraag slaat op het feit dat wij geen real life data van dementerende ouderen hebben ontvangen. Hierdoor hebben wij er het beste van moeten maken. Dit hebben wij gedaan door gebruik te maken van een gelabelde dataset die ook in andere onderzoeken gebruikt werd.
+
+Het derde deel na de laatste komma is het onderdeel wat wij willen uitbreiden aan bestaand onderzoek. Er is al onderzoek gedaan naar emotieherkenning, maar wij wilden dit beter toepasbaar maken op ons probleem. Zo hebben wij ervoor gekozen om geluiden toe te voegen die je ook in een huishouden tegen zou kunnen komen. Hierdoor bootsen wij de omgeving na waar de teddybear in de toekomst functioneel zal gaan zijn.
+
+**Deelvragen**
+
+>1. Which machine learning algorithms are available in literature to classify emotions from audio? 
+
+>2. Can the known methods of classifying be reproduced with the same precision/recall on the available dataset?
+
+>3. How can precision in machine learning algorithms be improved for the RAVDESS and CREMA-D datasets?
+
+>4. How will balancing the dataset impact the precision of the algorithm?
+
+**Research Proposal**
+
+De research proposal is geschreven door Zahir en ik. In de research proposal staan de onderzoeksvragen waar wij antwoord op willen en de methoden die we daarvoor willen gebruiken.
+
+Hiermee hebben wij een goede basis gelegd voor de start aan de research paper. In de proposal staan alle stapsgewijze veranderingen aan de hoofdvraag genoteerd. Hieronder staat de scope van het project uitgelegd. De hoofdvraag is opgesplitst in deelvragen en de gekozen evaluatiemethode wordt uitgelegd. Ook staat er al een begin aan de related work in voor in de paper, deze is gemaakt door Yuri.
+
+De research proposal kunt u [hier](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.toqny89ut4bx) vinden.
+
+
 </details>
 
-<details><summary>Evaluation</summary>
+<details><summary> Evaluation</summary>
+
+Gedurende de minor was het niet mogelijk om alle experimenten uit te voeren. Hierdoor zijn er nog een aantal dingen die gedaan zouden kunnen worden om ons onderzoek te verbeteren.
+
+**Model trainen met audio van de doelgroep (senioren in beginnende fase van dementie)**
+
+Het model dat wij gemaakt hebben kan met een precision van 84% de emotie herkennen in een stand-out set. Dit is een mooi resultaat, maar hierdoor is het nog onzeker hoe goed het model zou werken op real world data. Wanneer de eerste prototypes van de Smart Teddy bij senioren komen te staan en er daadwerkelijke audio data verzameld wordt zou het model beter getraind kunnen worden. De audio die wij hebben gebruikt is redelijk clean en dat is ook de reden waarom wij achtergrond geluiden hebben toegevoegd om het lastiger te maken.
+
+**Meer datasets toevoegen**
+
+Het onderzoek was in de eerste instantie gedaan met twee datasets, RAVDESS en CREMA-D. Toen de datasets TESS en SAVEE werden toegevoegd werd de precisie verhoogd. Er zou gekeken kunnen worden naar het toevoegen van meer soortgelijke audio datasets met gelabelde emoties. In "future work" van de research paper zijn er een paar dataset kandidaten genoemd: eNTERFACE, EMO-DB, DES en SUSAS.
+
+**Toevoegen of weg laten van emoties**
+
+Er zou nog gekeken kunnen worden naar de geclassificeerde emoties. Op dit moment hebben we het model getraind 4 gekozen emoties. Dit is gedaan omdat dit de beste resultaat opleverde met de gekozen parameters. Het is ook mogelijk om met een verzorger of medisch professional te kijken naar relevante emoties van dementerende ouderen. De parameters learning rate en batch size zouden getuned kunnen worden.
+
 
 </details>
 
 <details><summary>Conclusions</summary>
+
+
 
 </details>
 
