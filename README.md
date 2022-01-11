@@ -189,9 +189,12 @@ Er zou nog gekeken kunnen worden naar de geclassificeerde emoties. Op dit moment
 
 </details>
 
-<details><summary>Conclusions</summary>
+<details><summary Conclusions</summary>
+hich machine learning models achieve the highest precision classifying emotions, using datasets containing audio with labelled vocal emotional expressions recorded in a professional recording studio, to recognize emotions within household environments?
 
+Om de hoofdvraag te kunnen beantwoorden hebben wij veel verschillende modellen gebruikt om te achterhalen welke het beste presteert. Hiervoor hebben wij KNN, MLP, Logistical Regression en SVM gebruikt. Ieder projectlid had zijn eigen model gekregen om aan te sleutelen. Zo heb ik de KNN mogen maken. Hier kwam uit dat SVM en KNN het beste presteren. Echter scoort de KNN 100% op de training accuracy en is dus aan het overfitten. De resultaten per emotie en augmentatietype zijn terug te vinden in deze [Spreadsheet](https://docs.google.com/spreadsheets/d/1wc8sp6qxJ8SR_4TogPoZNkbWzzibx6kIHkYBRkAg0OI/edit#gid=995783680).
 
+Het voorgestelde CNN model in de [paper](Files/Research_Paper_Emotions.pdf) kan de emoties: happy, angry, neutral en sad inclusief huishoudelijke geluiden detecteren met een precision van 80%. 
 
 </details>
 
