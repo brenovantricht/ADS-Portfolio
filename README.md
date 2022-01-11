@@ -9,6 +9,7 @@ Project Group Team Emo:
 - Julian Groen 
 - Zahir Bholai 
 - Yuri Lamijo 
+- Breno van Tricht
 
 Docenten: Jeroen Vuurens, Tony Andrioli, Ruud Vermeij en Raymond Hoogendoorn
 
@@ -95,6 +96,26 @@ Hiernaast heb ik ook veel kunnen leren van mijn projectgroepje. Zij stonden alti
 
 
 
-<details><summary>Reflection on own contribution to the project</summary>
+<details><summary>Evaluating on the group project as a whole</summary>
+
+**Situatie**
+
+Tijdens de Minor Applied Data Science maakte ik deel uit van Team Emo. Team Emo bestaat uit een groep van 6 studenten. 4 van de 6 studenten studeren ICT en hebben als richting Software Engineering gekozen, 1 student studeert Bestuurskunde en als laatste studeer ikzelf Bedrijfskunde. Verschillende studies betekent verschillende kennis en invalshoeken. Iedereen studeert op de Haagse Hogeschool, waardoor wij ook wel herkend worden als het groepje waar de docent Nederlands mee kan praten tijdens meetings.
+**Taak** 
+
+Toen wij elkaar ontmoetten tijdens de kick-off, bleek het dat de programmeurs elkaar onderling al kenden. 3 van de 6 kenden elkaar van vorige projecten. Dit was erg fijn en zorgde ervoor dat er snel een relaxte sfeer was. Ik wist niet meteen wat mijn rol was in de groep en ik wist ook niet wat er van mij verwacht ging worden. Ook wist ik niet zo goed wat ik van mijzelf moest verwachten. Op dag 1 probeerde ik een beetje de leidende rol te nemen. 
+
+**Actie** 
+
+Wij wilden meteen op de eerste dag een taakverdeling, rolverdeling en afspraken maken over hoe we alles zouden gaan doen tijdens de minor. Ook wilden wij de meetings met docenten meteen plannen zodat wij goed van start konden gaan. Jaap heeft toen, met zijn docenten privilege, lokalen gereserveerd voor de meetings met docenten. Yuri is onze scrum master geworden. Wij hebben gedurende de minor gewerkt met sprints van 2 weken. De taken werden onderling per sprint verdeeld. Het contact werd geregeld via een Discord server die werd aangemaakt. Hierop vond elke dag de daily stand-up plaats en hielden wij elkaar op de hoogte over de status van het project en bijbehorende taken. Op de dagen dat wij fysiek aanwezig moesten zijn voor een college of meeting, werkten wij samen aan het project op school. Op de andere dagen deden wij dit vanuit huis.
+
+**Resultaat** 
+
+Ik vond het in het begin lastig om een rol te vinden die bij mij pastte tijdens het project. Ik had namelijk geen kennis over scrum en wist helemaal niks van programmeren af. Het merendeel van mijn groepje bestond uit programmeurs en hadden wel ervaring met scrum. Hierdoor moest ik soms terug te vallen op de kennis van mijn projectleden. Yuri is de gehele minor onze scrum master geweest. Er kwam al snel naar voren dat Jaap de leiding nam.
+
+**Reflectie**
+
+ Het project en de samenwerking tussen de studenten verliep erg soepel. Ik had graag de leiding willen nemen tijdens het project, maar dat bleek erg lastig. Gelukkig nam Jaap snel de leiding, dit was erg fijn en ik ben hem hier dankbaar voor. Ik was blij toen ik hoorde dat een andere student in mijn groepje niet weet hoe programmeren te werk gaat. Tijdens de minor heb ik mij veel gericht op het onderzoeksaspect en heb ik in mindere mate een bijdrage kunnen leveren bij het programmeren aan het project. Het was prettig om op de Discord server met elkaar contact te leggen over het project en ik ben van mening dat iedereen gemotiveerd was. Toch mistte ik ergens het persoonlijk contact tijdens het project. Dit ben ik namelijk gewend uit mijn vorige projectgroepen tijdens de studie Bedrijfskunde. Op de studie Bedrijfskunde zitten veel extraverte studenten waar ik als introvert sneller bevriend mee raak. We waren allemaal erg gefocust op het project waardoor er weinig tijd over was om ook persoonlijk contact te maken. Dit deed niet af aan de resultaten.
+
 
 </details>
