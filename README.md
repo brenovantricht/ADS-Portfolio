@@ -3,6 +3,8 @@ By: Breno van Tricht      (16132041)
 
 Studie: Bedrijfskunde
 
+Cursus: Minor Applied Data Science
+
 Project Group Team Emo: 
 - Jaap van Gestel 
 - Koen de Bruijn 
@@ -16,8 +18,7 @@ Docenten: Jeroen Vuurens, Tony Andrioli, Ruud Vermeij en Raymond Hoogendoorn
 # Introduction
 In dit persoonlijke portfolio wordt besproken wat de bedrijfskunde student heeft bijgedragen aan het project, wat de student geleerd heeft tijdens de minor en reflecteert de student over zijn eigen handelen. 
 
-Smart teddy is therapueutic companion  located in the homes of senior citizen. It is used to monitor the quality of life of the elderly within the early stages of dementia. It does this with various sensors which combined with the software in the base station produce reports about the quality of life. Our task is to recognize emotions from audio.
-  
+Team Emo maakt onderdeel uit van het Smart Teddy initiatief gerund door Hani Al-Ers.  
 
 # Datacamp Courses
 
@@ -117,5 +118,38 @@ Ik vond het in het begin lastig om een rol te vinden die bij mij pastte tijdens 
 
  Het project en de samenwerking tussen de studenten verliep erg soepel. Ik had graag de leiding willen nemen tijdens het project, maar dat bleek erg lastig. Gelukkig nam Jaap snel de leiding, dit was erg fijn en ik ben hem hier dankbaar voor. Ik was blij toen ik hoorde dat een andere student in mijn groepje niet weet hoe programmeren te werk gaat. Tijdens de minor heb ik mij veel gericht op het onderzoeksaspect en heb ik in mindere mate een bijdrage kunnen leveren bij het programmeren aan het project. Het was prettig om op de Discord server met elkaar contact te leggen over het project en ik ben van mening dat iedereen gemotiveerd was. Toch mistte ik ergens het persoonlijk contact tijdens het project. Dit ben ik namelijk gewend uit mijn vorige projectgroepen tijdens de studie Bedrijfskunde. Op de studie Bedrijfskunde zitten veel extraverte studenten waar ik als introvert sneller bevriend mee raak. We waren allemaal erg gefocust op het project waardoor er weinig tijd over was om ook persoonlijk contact te maken. Dit deed niet af aan de resultaten.
 
+
+</details>
+
+
+# Research Project
+<details><summary Task Definition</summary>
+
+
+Smart teddy is een therapeutisch compagnon die geplaatst zal gaan worden bij senioren thuis. Deze senioren zitten in de beginnende fase van dementie. Dementie is een verzamelnaam voor ruim vijftig ziektes, de meest voorkomende vorm is Alzheimer. Dementie is een ingewikkelde en ingrijpende ziekte die veel vragen oproept. 
+De Smart Teddy zal gebruikt gaan worden om de quality of life (QoL) te monitoren bij senioren in de beginnende fase van dementie. Dit zal gedaan worden door een aantal sensoren en een hiervan is een microfoon die audio zal opnemen. Gecombineerd met de software in de base station zal dit rapporten produceren over de qualite of life. 
+
+In de minor zijn er meerdere groepen bezig met dit vraagstuk. Zo bestaat er ook het team Nourishment, zij houden zich bezig met de eet/drink geluiden van de senior. Ook is er een team dat zich verdiept in de dialogen die gevoerd worden door de senior, dat is team Dialogue. 
+
+Ik maak onderdeel uit van Team Emo, wij hebben ons bezig gehouden met het detecteren van emoties uit audio. Het detecteren van emoties kan voor veel voordelen zorgen. Dementerende ouderen tonen vaak minder emoties wanneer zij zich in een later stadium van dementie bevinden. In het begin van de ziekte tonen de senioren vaak boze emoties. Dit komt doordat ze meestal niet meteen kunnen accepteren of beseffen wat er met ze aan de hand is.
+
+ Door bij te houden hoe vaak bepaalde emoties getoond worden, kan de patient beter gemonitord worden. Deze informatie geeft indicaties over de quality of life. Verzorgers en health experts kunnen zo beter overzicht houden en bepalen hoe het met de senior gaat.
+
+Ik heb veel gewerkt aan het creeren van een duidelijke hoofdvraag, na de hoofdvraag te bespreken met alle docenten en mijn groepje hebben we gekozen voor:
+
+> Which machine learning models achieve the highest precision classifying emotions, using datasets containing audio with labelled vocal emotional expressions recorded in a professional recording studio, to recognize emotions within household environments?
+
+
+</details>
+
+<details><summary>Evaluation</summary>
+
+</details>
+
+<details><summary>Conclusions</summary>
+
+</details>
+
+<details><summary>Planning</summary>
 
 </details>
