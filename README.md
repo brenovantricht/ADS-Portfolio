@@ -189,10 +189,9 @@ Er zou nog gekeken kunnen worden naar de geclassificeerde emoties. Op dit moment
 
 </details>
 
-<details><summary> Conclusions</summary>
-hich machine learning models achieve the highest precision classifying emotions, using datasets containing audio with labelled vocal emotional expressions recorded in a professional recording studio, to recognize emotions within household environments?
+<details><summary> Conclusions </summary>
 
-Om de hoofdvraag te kunnen beantwoorden hebben wij veel verschillende modellen gebruikt om te achterhalen welk het beste presteert. Hiervoor hebben wij als eerst KNN, MLP, Logistical Regression en SVM gebruikt. Ieder projectlid had zijn eigen model gekregen om aan te sleutelen. Zo heb ik de KNN mogen maken. Hier kwam uit dat SVM en KNN het beste presteren. Echter scoort de KNN 100% op de training accuracy en is dus aan het overfitten. De resultaten per emotie en augmentatietype zijn terug te vinden in deze [Spreadsheet](https://docs.google.com/spreadsheets/d/1wc8sp6qxJ8SR_4TogPoZNkbWzzibx6kIHkYBRkAg0OI/edit#gid=995783680).
+Om de hoofdvraag te kunnen beantwoorden hebben wij veel verschillende modellen gebruikt om te achterhalen welk het beste presteert. Hiervoor hebben wij als eerst KNN, MLP, Logistical Regression en SVM gebruikt. Ieder projectlid had zijn eigen model gekregen om aan te sleutelen. Zo heb ik de KNN mogen maken. Hier kwam uit dat SVM en KNN het beste presteren. Echter scoort de KNN 100% op de training accuracy en is dus aan het overfitten. De resultaten per emotie en augmentatietype zijn terug te vinden in deze [Spreadsheet](https://docs.google.com/spreadsheets/d/1wc8sp6qxJ8SR_4TogPoZNkbWzzibx6kIHkYBRkAg0OI/edit#gid=995783680)
 
 Uit onderzoek kwam al snel naar voren dat CNN een veelgebruikte methode was voor ons probleem. Hier zijn wij op gaan focussen na het uitproberen van de hiervoor genoemde modellen. Het voorgestelde CNN model in de [paper](Files/Research_Paper_Emotions.pdf) kan de emoties: happy, angry, neutral en sad exclusief huishoudelijke geluiden detecteren met een precision van 84%. Inclusief huishoudelijke achtergrond geluiden kwam er een precision van 80% uit. Deze resultaten laat zien dat, zoals verwacht, achtergrond geluiden toevoegen een negatieve impact heeft op de precision. Deze achtergrond geluiden zijn kunstmatig toegevoegd en zouden wellicht niet representeerbaar zijn voor de geluiden die je tegen zou kunnen komen in bijvoorbeeld de woonkamer van een senior. 
 
@@ -201,7 +200,7 @@ Uit ons onderzoek valt te concluderen dat emoties herkennen met een CNN function
 
 </details>
 
-<details><summary Planning</summary>
+<details><summary>  Planning</summary>
 
 Team Emo had ervoor gekozen om de Agile Scrum-methode te hanteren. Meer dan de helft was hier bekend mee en vond dit een fijne methode om mee te werken. Voor mij was dit echter nieuw. Ik heb hier veel over geleerd tijdens de workshop van Tony. Wij hadden besloten om een vaste scrummaster aan te wijzen en Yuri kreeg deze rol.
 
@@ -227,35 +226,190 @@ Hieronder volgt een overzicht van alle user stories waaraan ik heb gewerkt:
 
 ---
 
-<details><summary>Roadmap - Miro</summary>
+<details><summary> Roadmap - Miro</summary>
 
-In de eerste paar weken vonden wij het erg lastig om het overzicht te houden over alle werkzaamheden die verricht moesten worden om de minor succesvol af te ronden. Hiervoor hadden we toen gezamenlijk een roadmap van gemaakt.
+In de eerste paar weken vonden wij het erg lastig om het overzicht te houden over alle werkzaamheden die verricht moesten worden om de minor succesvol af te ronden. Hiervoor hadden we toen gezamenlijk een roadmap van gemaakt. De roadmap is heel het project als rode draad gebruikt om te bepalen welke user stories er gemaakt moesten worden en wat de opeenvolgende taken zullen gaan zijn.
 
-</details>
-
----
-
-<details><summary>Daily Standup - Discord</summary>
-
-asd 
+![](Images/Emotions_Roadmap.jpg)
 
 </details>
 
 ---
 
-<details><summary>Retrospective - Fraankly</summary>
+<details><summary> Daily Standup - Discord</summary>
 
-asd 
+Dagelijks hadden wij een Daily Standup. Deze werd op de maandag en woensdag fysiek gehouden omdat dat de dagen waren dat wij op school aanwezig waren. De overige 3 weekdagen werd de standup via Discord gehouden. Tijdens de standup bespraken wij per persoon wat diegene gister gedaan had en wat diegene vandaag van plan is om te gaan uitvoeren. Ook was er ruimte om te delen waar je tegen aan liep en werd er besproken hoe dat opgelost zou kunnen worden.   
 
 </details>
 
 ---
 
-<details><summary>Refinement - Discord</summary>
+<details><summary> Retrospective - Fraankly</summary>
 
-asd 
+De retrospective werd eenmaal in de 2 weken gehouden aan het eind van de sprint. Deze vond plaats met behulp van de website Fraankly. Hierin konden we aangeven wat we vonden dat er goed ging, wat er minder goed ging en wat we zouden willen veranderen. Vervolgens kon je stemmen op de kaarten die jij het belangrijkst vond en werden er actiepunten uit opgesteld. Hieronder is een voorbeeld te zien van hoe een retrospective erbij ons uitzag. Op onze [Github](https://github.com/koendebruijn/Emotions/wiki/Retrospective) zijn de overige retrospectives te vinden.
+
+![](Images/Retrospective.png)
 
 </details>
+
+---
+
+<details><summary> Refinement - Discord</summary>
+
+Halverwege de sprint werd er een refinement gehouden op Discord. Tijdens de refinement werd de scrumboard gestreamd. Zo kon iedereen mee kijken hoe het gaat met de gemaakte user stories. In deze meeting keken we naar de stand van zaken en werd ingeschat of het haalbaar was om de geplande taken af te ronden. Naast de scrumboard op Github werd er ook gekeken naar de Roadmap op Miro.
+
+</details>
+
+
+</details>
+
+
+# Predictive Analysis
+
+<details><summary>Selecting a Model </summary>
+
+Voor ons onderzoek moesten wij een manier vinden om emoties te herkennen uit audio. Wij hebben gebruik gemaakt van: MLP, Logistic Regression, KNN, SVM en CNN.
+Elk projectlid kreeg een taak om een machine learning model op zijn bord te nemen. Ik heb samen met Jaap gewerkt aan een KNN model. De voornaamste reden dat we dit model gekozen hebben is omdat dit toendestijds uitgelegd werd tijdens een college van Jeroen. Samen met de kennis uit de colleges, de ervaring met Datacamp en de hulp van een [YouTube Serie](https://www.youtube.com/playlist?list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr) genaamd Python Machine Learning Tutorial heb ik dit succesvol weten te doen.
+ 
+Uit ons vooronderzoek kwam naar voren dat CNN waarschijnlijk het meest zal gaan opleveren. SVM en Logistic Regression werden ook besproken in een ander onderzoek. Hier volgt later meer over in het kopje Domain Knowledge. 
+
+</details>
+
+
+<details><summary> Configuring a Model</summary>
+
+Om te achterhalen welke parameters het beste werken heb ik een Grid Search uitgevoerd. Deze grid search heb ik uitgevoerd met behulp van dit [artikel](https://medium.com/@erikgreenj/k-neighbors-classifier-with-gridsearchcv-basics-3c445ddeb657) en de hulp van Jaap. Jaap heeft toen dit model verder uitgewerkt. 
+
+```python
+
+def grid_search(model,x_train, x_test, y_train, y_test):
+    #[1,3,5,7,9,11,13,15,17,19]
+    n_neighbors = np.arange(1, 25)
+    weights = ['uniform', 'distance']
+    metric = ['euclidean', 'manhattan']
+    param_grid = dict(n_neighbors=n_neighbors, weights=weights, metric=metric)
+
+    clf = GridSearchCV(model, param_grid, cv=5, scoring='accuracy')
+    clf.fit(x_train, y_train)
+
+    print("Het model is gefit")
+    print("Best parameters set found on development set:")
+    print(clf.best_params_)
+    print(clf.best_estimator_)
+```
+
+Toen Jaap de leiding nam in ons Pair Programming couple zijn we tot het uiteindelijke resultaat gekomen:
+
+```python
+class KNN(BaseModel):
+    instance="KNN"
+
+    @classmethod
+    def grid_search(self,model,x_train, x_test, y_train, y_test,scoring):
+       #[1,3,5,7,9,11,13,15,17,19]
+        n_neighbors = np.arange(1, 8)
+        weights = ['uniform', 'distance']
+        metric = ['euclidean', 'manhattan']
+        param_grid = dict(n_neighbors=n_neighbors, weights=weights, metric=metric)
+        
+        start_time = time.perf_counter()
+        clf = GridSearchCV(model, param_grid, cv=5, scoring=scoring, n_jobs=5) 
+        end_time = time.perf_counter()
+        print(f"Duration Gridsearch: {end_time - start_time:04f}")
+        
+        start_time = time.perf_counter()
+        clf.fit(x_train, y_train)
+        end_time = time.perf_counter()
+       
+        # SAVING MODEL
+         print("Saving model")
+         dt = datetime.today().strftime('%Y-%m-%d-%H:%M:%S')
+         filename = './pkls/'+dt+'-knn.pkl'
+         print(filename)
+         joblib.dump(clf, filename)
+        
+        print(f"Duration fitting: {end_time - start_time:04f}")
+        print()
+
+        print("Best parameters set found on development set:")
+        print(clf.best_params_)
+        print(clf.best_estimator_)
+        print()
+
+        super().model_accuracy(clf, x_train, x_test, y_train, y_test)
+```
+
+</details>
+
+
+
+<details><summary> Training a Model</summary>
+
+Onderstaand is het stukje code dat ik heb samen met Jaap heb geschreven om het model te trainen en te achterhalen welke parameters het best zullen gaan presteren.
+
+```python
+def model_accuracy(model, X_train, X_test, y_train, y_test):
+
+    # Train accuracy
+    y_pred = model.predict(X_train)
+    accuracy = accuracy_score(y_train, y_pred)
+    print("Train accuracy is: {}".format(accuracy))
+
+    # Test accuracy
+    y_pred = model.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    print("Test accuracy is: {}".format(accuracy))
+
+    # Recall & Precision score
+    print(f"Recall: {recall_score(y_test, y_pred, average=None)}")
+    print(f"Precision: {precision_score(y_test, y_pred, average=None)}")
+    print("\n")
+    print(classification_report(y_test, y_pred))      
+
+train_model(CREMA_D_JSON_FILE_NAME)
+train_model(RAVDESS_JSON_FILE_NAME)
+```
+
+Nadat Jaap de leiding nam was dit wat we ervan gemaakt hebben.
+
+```python
+    @classmethod
+    def train(self, data, scoring="precision_weighted"):
+
+        train = data["train"]
+        test = data["test"]
+
+        x_train = np.array(train['features'])
+        y_train = np.array(train['emotions'])
+        x_test = np.array(test['features'])
+        y_test = np.array(test['emotions'])
+        
+        #GridSearch
+        self.grid_search(KNeighborsClassifier(), x_train, x_test, y_train, y_test,scoring)
+```
+
+Het trainen van het KNN-model heb ik meerdere keren gedaan met verschillende cross-validation waardes om te kijken wat de gevolgen hiervan zouden zijn. Hieronder is te zien wat het resultaat is van het runnen van de bovenste versie, die gemaakt is door mij. Hier heb ik verder op geëvalueerd.
+
+![](Images/knn_uitkomstvoorbeeld.png)
+
+</details>
+
+
+<details><summary> Evaluating a Model</summary>
+
+In onderstaande afbeelding is te zien wat de resultaten waren van de verschillende cross validation waardes op het KNN-model. Het valt meteen op dat de training accuracy 100% is bij elke cv-waarde op RAVDESS dataset. Dit betekent dat het model aan het overfitten is. Hieruit is te concluderen dat KNN niet de beste optie is voor het herkennen van emoties uit audio.
+
+![](Images/KNN_uitkomsten.png)
+
+Alle machine learning models zijn naast elkaar gelegd om te kijken wat onderling de resultaten waren van onze modellen. Deze zijn [hier](https://docs.google.com/spreadsheets/d/1SGjHORuv2V7R-UGH_zaVUPe-bFol-A4_j-msHxtJBgM/edit#gid=0) te vinden.
+
+
+
+</details>
+
+
+
+<details><summary> Visualizing the outcome of a Model</summary>
 
 
 </details>
