@@ -180,7 +180,7 @@ Het model dat wij gemaakt hebben kan met een precision van 84% de emotie herkenn
 
 **Meer datasets toevoegen**
 
-Het onderzoek was in de eerste instantie gedaan met twee datasets, RAVDESS en CREMA-D. Toen de datasets TESS en SAVEE werden toegevoegd werd de precisie verhoogd. Er zou gekeken kunnen worden naar het toevoegen van meer soortgelijke audio datasets met gelabelde emoties. In "future work" van de research paper zijn er een paar dataset kandidaten genoemd: eNTERFACE, EMO-DB, DES en SUSAS.
+Het onderzoek was in de eerste instantie gedaan met twee datasets, RAVDESS en CREMA-D. Toen de datasets TESS en SAVEE werden toegevoegd werd de precisie verhoogd. Er zou gekeken kunnen worden naar het toevoegen van meer soortgelijke audio datasets met gelabelde emoties. In "future work" van de [research paper](Files/Research_Paper_Emotions.pdf) zijn er een paar dataset kandidaten genoemd: eNTERFACE, EMO-DB, DES en SUSAS.
 
 **Toevoegen of weg laten van emoties**
 
@@ -189,15 +189,73 @@ Er zou nog gekeken kunnen worden naar de geclassificeerde emoties. Op dit moment
 
 </details>
 
-<details><summary Conclusions</summary>
+<details><summary> Conclusions</summary>
 hich machine learning models achieve the highest precision classifying emotions, using datasets containing audio with labelled vocal emotional expressions recorded in a professional recording studio, to recognize emotions within household environments?
 
-Om de hoofdvraag te kunnen beantwoorden hebben wij veel verschillende modellen gebruikt om te achterhalen welke het beste presteert. Hiervoor hebben wij KNN, MLP, Logistical Regression en SVM gebruikt. Ieder projectlid had zijn eigen model gekregen om aan te sleutelen. Zo heb ik de KNN mogen maken. Hier kwam uit dat SVM en KNN het beste presteren. Echter scoort de KNN 100% op de training accuracy en is dus aan het overfitten. De resultaten per emotie en augmentatietype zijn terug te vinden in deze [Spreadsheet](https://docs.google.com/spreadsheets/d/1wc8sp6qxJ8SR_4TogPoZNkbWzzibx6kIHkYBRkAg0OI/edit#gid=995783680).
+Om de hoofdvraag te kunnen beantwoorden hebben wij veel verschillende modellen gebruikt om te achterhalen welk het beste presteert. Hiervoor hebben wij als eerst KNN, MLP, Logistical Regression en SVM gebruikt. Ieder projectlid had zijn eigen model gekregen om aan te sleutelen. Zo heb ik de KNN mogen maken. Hier kwam uit dat SVM en KNN het beste presteren. Echter scoort de KNN 100% op de training accuracy en is dus aan het overfitten. De resultaten per emotie en augmentatietype zijn terug te vinden in deze [Spreadsheet](https://docs.google.com/spreadsheets/d/1wc8sp6qxJ8SR_4TogPoZNkbWzzibx6kIHkYBRkAg0OI/edit#gid=995783680).
 
-Het voorgestelde CNN model in de [paper](Files/Research_Paper_Emotions.pdf) kan de emoties: happy, angry, neutral en sad inclusief huishoudelijke geluiden detecteren met een precision van 80%. 
+Uit onderzoek kwam al snel naar voren dat CNN een veelgebruikte methode was voor ons probleem. Hier zijn wij op gaan focussen na het uitproberen van de hiervoor genoemde modellen. Het voorgestelde CNN model in de [paper](Files/Research_Paper_Emotions.pdf) kan de emoties: happy, angry, neutral en sad exclusief huishoudelijke geluiden detecteren met een precision van 84%. Inclusief huishoudelijke achtergrond geluiden kwam er een precision van 80% uit. Deze resultaten laat zien dat, zoals verwacht, achtergrond geluiden toevoegen een negatieve impact heeft op de precision. Deze achtergrond geluiden zijn kunstmatig toegevoegd en zouden wellicht niet representeerbaar zijn voor de geluiden die je tegen zou kunnen komen in bijvoorbeeld de woonkamer van een senior. 
+
+Uit ons onderzoek valt te concluderen dat emoties herkennen met een CNN functioneert. Hier kan nuttige informatie uit gehaald worden voor de quality of life. Denk bijvoorbeeld aan schommelingen in emoties of aanhoudende negatieve emoties. Hiermee kan een verzorger bepalen of er ingegrepen moet worden bij een senior en/of hij/zij nog in staat is om alleen te wonen.
+
 
 </details>
 
-<details><summary>Planning</summary>
+<details><summary Planning</summary>
+
+Team Emo had ervoor gekozen om de Agile Scrum-methode te hanteren. Meer dan de helft was hier bekend mee en vond dit een fijne methode om mee te werken. Voor mij was dit echter nieuw. Ik heb hier veel over geleerd tijdens de workshop van Tony. Wij hadden besloten om een vaste scrummaster aan te wijzen en Yuri kreeg deze rol.
+
+---
+
+<details><summary> Scrumboard- Github</summary>
+
+Voor de sprintplanning maakten wij gebruik van Github. Deze repository is vormgegeven door Koen. Wij werkten eerst met sprints van één week. Na een aantal sprints hebben wij dat veranderd naar sprints van 2 weken. Dit vonden wij beter aansluiten bij de taken en de weekplanning qua meetings, presentaties en colleges. Elke sprint werden de taken vertaald naar user stories door de scrummaster Yuri. Vervolgens werden de user stories verdeeld over de projectleden. Zo had iedereen overzicht over wat er gedaan moest worden en hadden we inzicht wat door wie werd gedaan tijdens de sprint.
+
+Hieronder is weergeven hoe we ons board vorm hebben gegeven. In de linkerkolom "To-do", in het midden "In progress" en "Waiting for feedback" en in de rechterkolom "Done".
+
+![](Images/Scrumboard.png)
+
+Hieronder volgt een overzicht van alle user stories waaraan ik heb gewerkt:
+
+![](Images/User_Story1.png)
+
+![](Images/User_Story2.png)
+
+![](Images/User_Story3.png)
+
+</details>
+
+---
+
+<details><summary>Roadmap - Miro</summary>
+
+In de eerste paar weken vonden wij het erg lastig om het overzicht te houden over alle werkzaamheden die verricht moesten worden om de minor succesvol af te ronden. Hiervoor hadden we toen gezamenlijk een roadmap van gemaakt.
+
+</details>
+
+---
+
+<details><summary>Daily Standup - Discord</summary>
+
+asd 
+
+</details>
+
+---
+
+<details><summary>Retrospective - Fraankly</summary>
+
+asd 
+
+</details>
+
+---
+
+<details><summary>Refinement - Discord</summary>
+
+asd 
+
+</details>
+
 
 </details>
