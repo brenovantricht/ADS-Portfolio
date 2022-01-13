@@ -102,6 +102,7 @@ Ik vind dat ik het goed heb gedaan en ben tevreden met de geboekte resultaten ti
 **Situatie**
 
 Tijdens de Minor Applied Data Science maakte ik deel uit van Team Emo. Team Emo bestaat uit een groep van 6 studenten. 4 van de 6 studenten studeren ICT en hebben als richting Software Engineering gekozen, 1 student studeert Bestuurskunde en als laatste studeer ikzelf Bedrijfskunde. Verschillende studies betekent verschillende kennis en invalshoeken. Iedereen studeert op de Haagse Hogeschool, waardoor wij ook wel herkend worden als het groepje waar de docent Nederlands mee kan praten tijdens meetings.
+
 **Taak** 
 
 Toen wij elkaar ontmoetten tijdens de kick-off, bleek het dat de programmeurs elkaar onderling al kenden. 3 van de 6 kenden elkaar van vorige projecten. Dit was erg fijn en zorgde ervoor dat er snel een relaxte sfeer was. Ik wist niet meteen wat mijn rol was in de groep en ik wist ook niet wat er van mij verwacht ging worden. Ook wist ik niet zo goed wat ik van mijzelf moest verwachten. Op dag 1 probeerde ik een beetje de leidende rol te nemen. 
@@ -586,14 +587,15 @@ Ik heb ook de Learning Lab gepresenteerd samen met Zahir, Jaap en Koen. Onze Lea
 
 Ik keek erg uit naar het schrijven van de Research Paper. Voordat we begonnen met het schrijven van de paper had ik een layout gemaakt van hoe onze paper ongeveer ingedeeld zou kunnen worden. Deze heb ik toen besproken met mijn projectleden en hier hebben wij van Tony feedback op gekregen. Desbetreffende Research Paper Layout kunt u [hier](https://docs.google.com/document/d/1X60FCTV-oK9eAKS9KQ81hX8ZSgNyez8vGyqV61jhlj8/edit#) vinden. Ik heb hiervoor naar soortgelijke papers gekeken die voor ons van belang waren en hun indeling vergeleken met elkaar. De layout van die papers staan kort vermeld in het document.
 
-Hiervoor heb ik gebruik gemaakt van de officiële ieee template, deze heb ik [hier](https://www.ieee.org/conferences/publishing/templates.html) gevonden. 
-
-Zahir, Yuri en ik zijn tezamen begonnen met het schrijven van de paper. Jaap kwam relatief snel helpen en toen we iets verder waren met de paper waren sloten Julian en Koen aan. Yuri Zahir en ik hebben de introduction en background geschreven. 
+Zahir, Yuri en ik zijn tezamen begonnen met het schrijven van de paper. Jaap kwam relatief snel helpen en toen we iets verder waren met de paper waren sloten Julian en Koen aan. Yuri Zahir en ik hebben de introduction en background geschreven.  
 
 De 3e alinea van Background is door mij alleen geschreven. Verder heb ik veel bijgedragen aan de Evaluation Method en is de Conclusion & Discussion door mij geschreven. Nadat elk hoofdstuk ingevuld was hebben wij de koppen bijelkaar gestoken om de puntjes op de i te zetten. We hebben alinea voor alinea alles behandeld en besproken of we het er mee eens waren. Op deze manier werd feedback van projectleden meteen verwerkt.
 
+Voor de layout heb ik gebruik gemaakt van de officiële ieee template, deze heb ik [hier](https://www.ieee.org/conferences/publishing/templates.html) gevonden. 
 
 
 [De Research Paper](Files/Research_Paper_Emotions.pdf)
+
+
 
 </details>
