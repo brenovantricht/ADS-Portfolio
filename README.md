@@ -621,6 +621,12 @@ Ik heb ook de Learning Lab gepresenteerd samen met Zahir, Jaap en Koen. Onze Lea
 
 <details><summary> Writing Paper</summary>
 
+---
+
+[Research Paper](Files/Research_Paper_Emotions.pdf)
+
+---
+
 Ik keek erg uit naar het schrijven van de Research Paper. Voordat we begonnen met het schrijven van de paper had ik een layout gemaakt van hoe onze paper ongeveer ingedeeld zou kunnen worden. Deze heb ik toen besproken met mijn projectleden en hier hebben wij van Tony feedback op gekregen. Desbetreffende Research Paper Layout kunt u [hier](https://docs.google.com/document/d/1X60FCTV-oK9eAKS9KQ81hX8ZSgNyez8vGyqV61jhlj8/edit#) vinden. Ik heb hiervoor naar soortgelijke papers gekeken die voor ons van belang waren en hun indeling vergeleken met elkaar. De layout van die papers staan kort vermeld in het document.
 
 Zahir, Yuri en ik zijn tezamen begonnen met het schrijven van de paper. Jaap kwam relatief snel helpen en toen we iets verder waren met de paper waren sloten Julian en Koen aan. Yuri Zahir en ik hebben de introduction en background geschreven.  
@@ -628,10 +634,6 @@ Zahir, Yuri en ik zijn tezamen begonnen met het schrijven van de paper. Jaap kwa
 De 3e alinea van Background is door mij alleen geschreven. Verder heb ik veel bijgedragen aan de Evaluation Method en is de Conclusion & Discussion door mij geschreven. Nadat elk hoofdstuk ingevuld was hebben wij de koppen bijelkaar gestoken om de puntjes op de i te zetten. We hebben alinea voor alinea alles behandeld en besproken of we het er mee eens waren. Op deze manier werd feedback van projectleden meteen verwerkt.
 
 Voor de layout heb ik gebruik gemaakt van de officiële ieee template, deze heb ik [hier](https://www.ieee.org/conferences/publishing/templates.html) gevonden. 
-
-
-[De Research Paper](Files/Research_Paper_Emotions.pdf)
-
 
 
 </details>
