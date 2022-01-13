@@ -468,6 +468,132 @@ Ook hebben we gezamenlijk gezocht naar bestaande methodes voor emotieherkenning 
 
 <details><summary>Explanation of Terminology, Jargon and Definitions</summary>
 
+Emotionrecognition -
+Speech -
+Convolutional Neural  Network  (CNN) - 
+Household ambientsounds -
+Dementia -
+Health Care -
+Smart Teddy
 
+</details>
+
+# Data Preprocessing
+
+<details><summary>Data</summary>
+
+Tijdens de minor heb ik mij bijna niet bezig gehouden met het preprocessen van de data voor ons model. Ik zal dus ook niet alle punten bespreken van dit hoofdstuk zoals in de scoring rubrics vermeld staat aangezien dit voornamelijk door mijn projectleden gedaan is. Wel heb ik een paar dingetjes gedaan die in dit hoofdstuk passen. 
+
+Tijdens de Hackaton heb ik actief meegedaan en hebben we gezamenlijk de data explored, cleaned en prepared. Een link naar onze Hackaton Notebook is [hier](https://datascience.hhs.nl:8888/user/16132041/notebooks/emo/project/Hackaton.ipynb) te vinden
+
+
+Samen met Koen heb ik gewerkt aan een Dataset Loader voor de CREMA-D dataset. Koen maakte er een voor de RAVDESS dataset en ik deed dit voor dataset CREMA-D. Deze is toendestijds gebruikt om de datasets in te kunnen laden.
+
+```python
+%run ../source/pipeline/dataset_loader.ipynb
+import json
+class CremadPLoader(Loader):
+    
+    BASE="../preprocced data/data"
+    instance="Crema-d Processed Loader"
+    
+    @classmethod
+    def load_dataset(self, variant):
+        dataset = {}
+        
+        train_path=f"{self.BASE}/train/crema-d/train_{variant}_crema-d_preprocessed_data.json"
+        test_path=f"{self.BASE}/test/crema-d/test_{variant}_crema-d_preprocessed_data.json"
+        
+        with open(train_path) as train_data:
+            dataset["train"] = json.load(train_data)
+            
+        with open(test_path) as test_data:
+            dataset["test"] = json.load(test_data)
+            
+        return dataset
+```
+
+Later in het project hebben we dit omgezet tot één gezamenlijke dataset loader. Deze gezamenlijke loader is [hier](https://datascience.hhs.nl:8888/user/16132041/notebooks/emo/source/pipeline/dataset_loader.ipynb) te vinden.
+
+</details>
+
+# Communication
+
+<details><summary> Presentations</summary>
+
+---
+
+Tijdens de minor waren er een aantal presentaties die gedaan moesten worden. De interne presentatie om de week, een presentatie voor Hani om de week, de Learning Lab en de externe presentaties. De presentaties voor Hani heb ik allemaal mogen doen. Bij de overige presentaties was niet van te voren bepaald wie die zou gaan doen. Ik heb mij kandidaat gesteld bij elke presentatie omdat ik daar graag beter in wil worden.
+
+---
+
+De interne presentaties waren voornamelijk gedaan door Jaap. Ik ging altijd mee naar voren voor ondersteuning en heb hier toen ook deel kunnen nemen aan de presentaties. De interne presentaties waar ik heb mee mogen presenteren staan hieronder vermeld. Hier had ik voornamelijk het woord over de Main Research Question, Research Proposal en andere onderzoekende taken:
+
+
+[Interne Presentatie Week 4](https://docs.google.com/presentation/d/1VBQd9DZl8fIsv-5RBmLyrqp9_HKh1xJwpDcWu_B7I7g/edit#slide=id.gea50fed553_0_6)
+
+[Interne Presentatie Week 6](https://docs.google.com/presentation/d/1HsTYFASqxeT0n3aWm5oJHQKAOU0aH2ChFHOztF_8-wU/edit#slide=id.gedadb8a670_3_0)
+
+[Interne Presentatie Week 10](https://docs.google.com/presentation/d/1N9T62xSTJwfBfDu5KhDCf268zWk33ZWVv752YpY8zSk/edit#slide=id.g100a22f516d_0_82)
+
+[Interne Presentatie Week 10](https://docs.google.com/presentation/d/1N9T62xSTJwfBfDu5KhDCf268zWk33ZWVv752YpY8zSk/edit#slide=id.g100a22f516d_0_82)
+
+*(Als het goed is wordt er bij het openen gelinkt naar de specifieke dia)*
+
+---
+
+In de eerste paar meetings verliep het contact met Hani niet geweldig en waren wij soms ook niet goed genoeg voorbereid om het gesprek of om een discussie aan te gaan met Hani. Hani heeft toen voorgesteld om altijd een presentatie te maken en deze te presenteren. Vanaf presentatie week nummer 11 sloot Jelle bij ons aan. Jelle zit ook in dit vakgebied en was erg geinteresseerd waar wij mee bezig waren. Sinds dat moment heeft hij elke meeting bijgewoond. Alle presentaties voor onze product owner Hani heb ik gepresenteerd.
+
+[Presentatie Hani Week 5](https://docs.google.com/presentation/d/1qrNHJH6cqTATocxjrqoc8u1Mdzrkl-Nj99uRyfylBmo/edit#slide=id.p)
+
+[Presentatie Hani Week 8](https://docs.google.com/presentation/d/1olIzBfWSBZTIDrAKjIqnwSahwACmkKfAEFULk3foffc/edit#slide=id.p)
+
+[Presentatie Hani Week 9](https://docs.google.com/presentation/d/1SUvTwHhTpL_T0HxaoeSOyDgE_OyNTGavJyxcbBUpp6E/edit#slide=id.p)
+
+[Presentatie Hani Week 11](https://docs.google.com/presentation/d/1k2Ly1bdA8k35lY7myMH4tpMTBwY7Z_5OSPq31DkUVSw/edit#slide=id.p)
+
+[Presentatie Hani Week 13](https://docs.google.com/presentation/d/18LSxUXswJbfFbnuHNBjXsbyp76UQy35qI5URQuQtltg/edit#slide=id.p)
+
+[Presentatie Hani Week 15](https://docs.google.com/presentation/d/12v3rGTKVmE1WxA5l0Obaj4xzBKkD9JZS6ShX6yylbAU/edit#slide=id.p)
+
+*Alle dia's zijn door mij gepresenteerd.*
+
+---
+
+Voor de externe presentaties besloten we vaak tijdens het samenstellen van de presentatie wie zou gaan presenteren. Ik vond dit leuk om te doen en heb ook bij elke externe presentatie mogen presenteren. Het verschilde per externe presentatie welke projectleden mee presenteerde.
+
+[Externe Presentatie 1](https://docs.google.com/presentation/d/1s8yLUMx2hhJINx-23QsXn2dgf4osR5rwR3pb1_N6MCw/edit)
+
+[Externe Presentatie 2](https://docs.google.com/presentation/d/1Q8pCSaHh-NOdmONjhDi91h5KIwgagx26fTpmsYayNGw/edit#slide=id.p)
+
+[Externe Presentatie 3](https://docs.google.com/presentation/d/1zTva9BPbiWAARs8vM3S7Wy0qXT1pBUMSoa-8i74HjZQ/edit#slide=id.p)
+
+*Bij externe presentatie 1 en 2 heb ik het kopje "Next Steps" gepresenteerd, bij externe presentatie 3 heb ik de intro gedaan en de "Recap" gepresenteerd.*
+
+---
+
+Ik heb ook de Learning Lab gepresenteerd samen met Zahir, Jaap en Koen. Onze Learning Lab ging over Support Vector Machines (SVM).
+
+[Learning Lab SVM](https://docs.google.com/presentation/d/1NrmkkP36NY3_dqtBgHQRZkpA7xsUlrhc/edit#slide=id.p1)
+
+*De introductie, voor en nadelen van SVM en de hyperparameters heb ik gepresenteerd. Dia 1 t/m 6.*
+
+---
+
+</details>
+
+<details><summary> Writing Paper</summary>
+
+Ik keek erg uit naar het schrijven van de Research Paper. Voordat we begonnen met het schrijven van de paper had ik een layout gemaakt van hoe onze paper ongeveer ingedeeld zou kunnen worden. Deze heb ik toen besproken met mijn projectleden en hier hebben wij van Tony feedback op gekregen. Desbetreffende Research Paper Layout kunt u [hier](https://docs.google.com/document/d/1X60FCTV-oK9eAKS9KQ81hX8ZSgNyez8vGyqV61jhlj8/edit#) vinden. Ik heb hiervoor naar soortgelijke papers gekeken die voor ons van belang waren en hun indeling vergeleken met elkaar. De layout van die papers staan kort vermeld in het document.
+
+Hiervoor heb ik gebruik gemaakt van de officiële ieee template, deze heb ik [hier](https://www.ieee.org/conferences/publishing/templates.html) gevonden. 
+
+Zahir, Yuri en ik zijn tezamen begonnen met het schrijven van de paper. Jaap kwam relatief snel helpen en toen we iets verder waren met de paper waren sloten Julian en Koen aan. Yuri Zahir en ik hebben de introduction en background geschreven. 
+
+De 3e alinea van Background is door mij alleen geschreven. Verder heb ik veel bijgedragen aan de Evaluation Method en is de Conclusion & Discussion door mij geschreven. Nadat elk hoofdstuk ingevuld was hebben wij de koppen bijelkaar gestoken om de puntjes op de i te zetten. We hebben alinea voor alinea alles behandeld en besproken of we het er mee eens waren. Op deze manier werd feedback van projectleden meteen verwerkt.
+
+
+
+[De Research Paper](Files/Research_Paper_Emotions.pdf)
 
 </details>
