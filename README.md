@@ -467,15 +467,51 @@ Ook hebben we gezamenlijk gezocht naar bestaande methodes voor emotieherkenning 
 </details>
 
 
-<details><summary>Explanation of Terminology, Jargon and Definitions</summary>
+<details><summary> Explanation of Terminology, Jargon and Definitions</summary>
 
-Emotionrecognition -
-Speech -
-Convolutional Neural  Network  (CNN) - 
-Household ambientsounds -
-Dementia -
-Health Care -
-Smart Teddy
+Ambient sounds - Huishoudelijk geluiden, die je tegen zou kunnen komen in een huis
+
+Convolutional Neural  Network  (CNN) - Is een kunstmatig neuraal netwerk, meestal toegepast om visuele beelden te analyseren
+
+Classificatieanalyse - Voorspellen van een label
+
+CREMA-D - Audio dataset van gesproken zinnen waarvan de emoties  gelabeld zijn
+
+Datacamp - Online leeromgeving voor Data Science
+
+Dementie - Is de naam voor een combinatie van symptomen (een syndroom), waarbij de hersenen informatie niet meer goed kunnen verwerken
+
+Emotie - Is een innerlijke beleving of moeilijk te omschrijven gevoel. De vier bekendste emoties noemt men angst, vreugde, boosheid en verdriet. Elk mens toont emoties.
+
+Health Care - de georganiseerde verstrekking van medische zorg aan individuen of een gemeenschap
+
+K-Nearest Neighbor (KNN) - Eenvoudig algoritme dat alle beschikbare cases en nieuwe cases classificeert bij meerderheid van stemmen van K Neighbors
+
+Linear Regression - is een statistisch proces waarmee je een lineair verband tussen twee grootheden kan aantonen
+
+Machine Learning Perceptron (MLP) - is een neuraal netwerk waarin de neuronen in verschillende lagen met elkaar verbonden zijn
+
+Precision - Wordt gebruikt om de prestaties van classificatie- of informatie-ophaalsystemen te evalueren. Is het gedeelte van relevante variabelen tussen alle opgehaalde variabelen.
+
+RAVDESS - Audio dataset van gesproken zinnen waarvan de emoties  gelabeld zijn
+
+Recall - Wordt gebruikt om de prestaties van classificatie- of informatie-ophaalsystemen te evalueren. Recall wordt ook wel gevoeligheid genoemd.
+
+Regressieanalyse - Voorspellen van een hoeveelheid
+
+Research Proposal - Het onderzoeksplan waarin staat wat je wilt gaat doen en hoe je dat wilt gaan doen
+
+SAVEE - Audio dataset van gesproken zinnen waarvan de emoties  gelabeld zijn
+
+Smart Teddy - Het project waar gewerkt wordt aan het ontwikkelen van een teddybear die bij demente ouderen thuis staat die als ondersteuning dient
+
+Speech - Het geheel aan talige klanken die door het menselijk lichaam met behulp van lucht uit de longen en het spraakkanaal worden voortgebracht
+
+Support Vector Machine (SVM) - Supervised learning models met bijbehorende leeralgoritmen die gegevens analyseren voor classificatie en regressieanalyse
+
+TESS - Audio dataset van gesproken zinnen waarvan de emoties  gelabeld zijn
+
+Quality of Life - Verzamelnaam voor de uitkomst van meetinstrumenten bij het kwaliteit-van-leven-onderzoek waarmee men probeert uit te drukken hoe de beleving van de (on)-mogelijkheden van het actuele leven zich verhoudt tot die van het gewenste leven
 
 </details>
 
